@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ytmarknotifications</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Notifications
+private extension &lt;#name#&gt; {
+    
+    func observeNotifications() {
+        let center = NSNotificationCenter.defaultCenter()
+        center.addObserver(self, selector: #selector(&lt;#selector#&gt;), name: &lt;#notification name#&gt;, object: nil)
+    }
+    
+    @objc func didReceive&lt;#name#&gt;Notification(notification: NSNotification) {
+        
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FE610976-6A7D-406E-8B51-E3D14491DC2B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>// MARK: - Notifications</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>// MARK: - Notifications</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
